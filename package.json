@@ -1,0 +1,21 @@
+{
+  "name": "electronapp",
+  "version": "0.0.1",
+  "description": "This is a dummy app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev:watch": "npx electronmon --trace-warnings .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "reactjs",
+    "typescript"
+  ],
+  "author": "devrick",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "27.0.3"
+  }
+}
